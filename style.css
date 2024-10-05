@@ -24,6 +24,10 @@ nav ul{
 nav ul li{
     list-style-type: none;
 }
+nav ul li a:hover{
+    font-weight: bold;
+    border-bottom-style: dotted;
+}
 nav ul li a{
     text-decoration: none;
     color: black;
@@ -31,6 +35,8 @@ nav ul li a{
 #about{
     font-size: 2rem;
     text-align: center;
+    padding-top: 35px;
+    padding-bottom: 30px;
 }
 #me{
     height: 14em;
@@ -39,6 +45,18 @@ nav ul li a{
 }
 h2{
     color: #0fffe9;
+}
+#pro ul li{
+    list-style-type: none;
+    border-bottom-style: dotted;
+}
+#pro ul li a{
+    font-family: cursive;
+    color: #ff9800;
+}
+#pro ul li a:hover{
+    color: rgb(236, 147, 13);
+    font-weight: bold;
 }
 #edu , #pro , #skill{
     display: flex;
@@ -70,6 +88,19 @@ h2{
 .icon{
     height: 50px;
     width: 60px;
+}
+#btn{
+    color: black;
+    border-radius: 8px;
+    height: 30px;
+    width: 75px;
+}
+#btn:hover{
+    cursor: pointer;
+    font-weight: bold;
+}
+#contact form div input{
+    font-size: 18px;
 }
 #contact ul li{
     list-style-type: none;
