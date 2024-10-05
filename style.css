@@ -9,6 +9,7 @@ body{
     background: url(/images/bg.jpg);
 }
 nav{
+    width: 100vw;
     height: 75px;
     font-size: 2em;
     background-color: blanchedalmond;
@@ -37,6 +38,7 @@ nav ul li a{
     text-align: center;
     padding-top: 35px;
     padding-bottom: 30px;
+    height: 18em;
 }
 #me{
     height: 14em;
@@ -73,8 +75,11 @@ h2{
     margin-top: 30px;
 }
  #contact{
+    padding-top:20px;
+    padding-bottom: 20px;
     text-align: center;
     font-size: 2em;
+    height: 8em;
 }#pro a{
     text-decoration: none;
 }
@@ -107,4 +112,59 @@ h2{
 }
 #contact ul li a{
     text-decoration: none;
+}
+@media (max-width:812px){
+    #nav{
+        height: max-content;
+    }
+    #edu , #pro{
+        height:20em;
+    }
+    #edu,#pro,#skill{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    #about{
+        height: 20em;
+    }
+}
+@media(max-width:558px){
+    #me{
+        width:92vw;
+    }
+    #about{
+        height: 22em;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+    #edu , #pro{
+        height:24em;
+    }
+    #contact{
+        height: 10em;
+    }
+    #contact ul{
+        margin-top: 27px;
+    }
+}
+@media(max-width:520px){
+    #skill{
+        height: 16em;
+    }
+}
+@media(max-width:400px){
+    #edu , #pro{
+        height: 26em;
+    }
+}
+@media(max-width:350px){
+    #edu,#pro{
+        height: 30em;
+    }
+    #skill{
+        height: 20em;
+    }
+    #contact div input{
+        width: 60vw;
+    }
 }
