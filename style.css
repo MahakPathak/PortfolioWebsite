@@ -114,9 +114,6 @@ h2{
     text-decoration: none;
 }
 @media (max-width:812px){
-    #nav{
-        height: max-content;
-    }
     #edu , #pro{
         height:20em;
     }
@@ -152,7 +149,10 @@ h2{
         height: 16em;
     }
 }
-@media(max-width:400px){
+@media(max-width:410px){
+    nav{
+        height: auto;
+    }
     #edu , #pro{
         height: 26em;
     }
